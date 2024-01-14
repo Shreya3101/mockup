@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/charts.css/dist/charts.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/progressbar.js/0.6.1/progressbar.min.js" integrity="sha512-7IoDEsIJGxz/gNyJY/0LRtS45wDSvPFXGPuC7Fo4YueWMNOmWKMAllEqo2Im3pgOjeEwsOoieyliRgdkZnY0ow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <nav class="menu">
+        <a href="#" class="menu__item">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </a><br><br><br><br><br>
+        <a href="#" class="menu__item menu__item--active">
+            <i class="fa-solid fa-house"></i>
+        </a>
+        <a href="#" class="menu__item">
+            <i class="fa-regular fa-address-card"></i>
+        </a>
+        <a href="#" class="menu__item">
+            <i class="fa-solid fa-list"></i>
+        </a>
+        <a href="#" class="menu__item">
+            <i class="fa-regular fa-user"></i>
+        </a><br><br><br><br><br><br><br><br><br>
+        <a href="#" class="menu__item">
+            <i class="fa-regular fa-bell"></i>
+        </a>
+        <a href="#" class="menu__item">
+            <i class="fa-solid fa-arrow-right-from-bracket"></i>
+        </a>
+        
+      </nav>
+      <main>
+        <div class="container-fluid">
+            <div class="row container mainsec">
+                
+                <div class="p-2 col-md-3 col-sm-12">
+                    <div class="card mb-3 text-bg-light border-light">
+                        <div class="row g-0">
+                          <div class="col-md-4 col-sm-4">
+                            <img src="https://ik.imagekit.io/9g0jq9wkj/face.jpeg?updatedAt=1703824764832" class="  rounded-circle" alt="..." width="110px">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Hi,Mike</h5>
+                              <p class="card-text">Welcome back</p>
+                              <br>
+                              
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card mb-3 text-bg-light border-light" >
+                        <div class="card-body">
+                            <p class="card-text fw-bold">Today</p>
+                          <h4 class="card-title"><b>$19,892</b></h5>
+                          <p class="card-text text-secondary mt-n1">Account Balance</p>
+                          <h6 class="card-title">$4,000</h5>
+                          <p class="card-text text-secondary mt-n1">Year-to-date contribution</p>
+                          <h6 class="card-title">$1,892</h5>
+                          <p class="card-text text-secondary mt-n1">Total Interest</p>
+                          <a href="#" class="btn" style="background-color: blue; color: aliceblue;">I want to <i class="fa-solid fa-caret-down"></i></a>
+                        </div>
+                      </div>
+                      <div class="card mb-3 text-bg-light border-light" >
+                        <div class="card-body">
+                            <p class="card-text fw-bold">Recent Transactions</p>
+                            <p class="card-text text-secondary mt-n1">2020-08-07</p>
+                          <h6 class="card-title">Withdrawal transfer to Bank-XXX11</h6>
+                          <hr>
+                           
+                            <p class="card-text text-secondary mt-n1">2020-08-07</p>
+                          <h6 class="card-title">Withdrawal transfer to Bank-XXX11</h5>
+                          <hr>
+                            
+                            <p class="card-text text-secondary mt-n1">2020-08-07</p>
+                          <h6 class="card-title">Withdrawal transfer to Bank-XXX11</h5>
+                          <hr>
+                         
+                         
+                        </div>
+                      </div>
+                </div>
+            
+                <div class="p-2 col-md-6 col-lg-6 col-sm-12">
+                    <div>
+                        <h6 class="text-primary ">Retirement Income</h5>
+                        <h5>Starting Year 2056</h3><br>
+                        <div class="row">
+                            <div class="col-md-4 col-sm-4">
+                                <h4><b>$300,000</b></h3>
+                                <p text-secondary>My Goal</p>
+                                <hr>
+                            </div>
+                            <div class="col-md-4 col-sm-4">
+                                <h4><b>59%</b></h3>
+                                <p text-secondary>Goal Achieved</p>
+                                <hr>
+                            </div>
+                            <div class="col-md-4 col-sm-4">
+                                <h4><b>$300</b></h3>
+                                <p text-secondary>Est. Monthly Income</p>
+                                <hr>
+                            </div>
+                            
+                            <div><br>
+                                <h6><b>Contributions overtime</b></h6>
+                               <div class="row">
+                                <div class="col-md-4 col-sm-4">
+                                    <div class="row">
+                                    <div class="col-md-6 col-sm-6" >
+                                        <p class="text-secondary">Employer:  </p>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6" >
+                                        <p>K73500</p>
+                                    </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="col-md-4 col-sm-4">
+                                    <div class="row">
+                                    <div class="col-md-6 col-sm-6" >
+                                        <p class="text-secondary">Employer:  </p>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6" >
+                                        <p>K73500</p>
+                                    </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="col-md-4 col-sm-4">
+                                    <div class="row">
+                                    <div class="col-md-6 col-sm-6" >
+                                        <p class="text-secondary">Employer:  </p>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6" >
+                                        <p>K73500</p>
+                                    </div>
+                                    </div>
+                                    
+                                </div>
+                               </div> 
+                               <div>
+                                <div id="column-example-13"><table class="charts-css column show-labels show-primary-axis show-data-axes data-spacing-10"><caption> Column Example #13 </caption> <thead><tr><th scope="col"> Year </th> <th scope="col"> Progress </th></tr></thead> <tbody>
+                                    <tr>
+                                    <th scope="row"> 20 </th> <td style="--size: 0.07; background-color: rgb(209, 209, 240);"></td>
+                                </tr> 
+                                <tr><th scope="row">  </th> <td style="--size: 0.14; background-color: rgb(185, 185, 215)"></td>
+                                </tr>
+                                 <tr><th scope="row"> 25 </th> <td style="--size: 0.21; background-color: rgb(167, 167, 236)"></td>
+                                </tr>
+                                 <tr><th scope="row">  </th> <td style="--size: 0.28; background-color: rgb(128, 128, 217)"></td>
+                                </tr>
+                                 <tr><th scope="row"> 30 </th> <td style="--size: 0.35; background-color: rgb(106, 106, 241)"></td>
+                                </tr>
+                                 <tr><th scope="row">  </th> <td style="--size: 0.42; background-color: rgb(76, 76, 255)"></td>
+                                </tr>
+                                 <tr><th scope="row">  </th> <td style="--size: 0.42; background-color: rgb(31, 31, 255)"></td>
+                                  <tr><th scope="row"> 35 </th> <td style="--size: 0.5; background-color: rgb(0, 0, 252) "></td>
+                                </tr>
+                                 <tr><th scope="row">  </th> <td style="--size: 0.57; background-color: rgb(1, 1, 202)"></td>
+                                </tr>
+                                 <tr><th scope="row"> 40 </th> <td style="--size: 0.64; background-color: rgb(2, 2, 150)"></td>
+                                </tr>
+                                 <tr><th scope="row">  </th> <td style="--size: 0.71; background-color: rgb(0, 0, 102)"></td>
+                                </tr>
+                                 <tr><th scope="row"> 60 </th> <td style="--size: 0.78; background-color: rgb(0, 0, 73)"></td>
+                                </tr>
+                                 <tr><th scope="row">  </th> <td style="--size: 0.85; background-color: rgb(0, 0, 61)"></td>
+                                </tr>
+                                 <tr><th scope="row"> 65 </th> <td style="--size: 0.92; background-color: rgb(0, 0, 38)"></td>
+                                </tr>
+                                
+                                
+                            </tbody>
+                        </table><br><br>
+                        </div>
+                               </div>
+                            </div>
+                            
+                           <div>
+                            <h4>How do I compare to my peers?</h4>
+                            <p text-secondary>Those numbers represent current goal achievement</p>
+                            <hr>
+                           </div>
+                           <div class="container">
+                            <div class="row">
+                              <div class="col-md-3 col-sm-12">
+                                <div class="row">
+                        
+                                    <div class="col-md-12">
+                                     
+                                      Age: <select id="select"> <option value="volvo">Under 30</option><i class="fa-solid fa-caret-down"></i></select>
+                                    </div>
+                                <hr>
+                                    
+                                    <div class="col-md-12">
+                                        Salary: <select id="select"> <option value="volvo">K-20K-30</option><i class="fa-solid fa-caret-down"></i></select>
+                                    </div>
+                                <hr>
+                                    <div class="col-md-12">
+                                        Gender :<select id="select"> <option value="volvo">Male</option><i class="fa-solid fa-caret-down"></i></select>
+                                    </div>
+                                  </div>
+                              </div>
+                              <div class="col-md-9 col-sm-12">
+                                <div class="row">
+                              <div class="col-md-4 col-sm-4">
+                                <div class="progresss one">
+                                    <span class="progress-left">
+                                                      <span class="progress-bar"></span>
+                                    </span>
+                                    <span class="progress-right">
+                                                      <span class="progress-bar"></span>
+                                    </span>
+                                    <div class="progress-value">78%</div>
+                                  </div>
+                                  <p>Average</p>
+                              </div>
+                              <div class="col-md-4 col-sm-4">
+                                <div class="progresss two">
+                                    <span class="progress-left">
+                                                    <span class="progress-bar"></span>
+                                    </span>
+                                    <span class="progress-right">
+                                                    <span class="progress-bar"></span>
+                                    </span>
+                                    <div class="progress-value">95%</div>
+                                  </div>
+                                  <p>Top</p>
+                              </div>
+                              <div class="col-md-4 col-sm-4">
+                                <div class="progresss three">
+                                    <span class="progress-left">
+                                                    <span class="progress-bar"></span>
+                                    </span>
+                                    <span class="progress-right">
+                                                    <span class="progress-bar"></span>
+                                    </span>
+                                    <div class="progress-value">95%</div>
+                                  </div>
+                                  <p>Me</p>
+                              </div>
+                              </div>
+                              </div>
+
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                    <div class="section3">
+                      <h6>Retirement Strategy</h5>
+                      <br>
+                      <div>
+                      <p>Employee Contribution</p>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 25%; background-color: rgb(0, 119, 255);" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div><div style="padding-left: 180px;">12%</div>
+                      </div>
+                    </div>
+                      <div>
+                      <p>Retirement Age</p>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 25%; background-color: rgb(0, 119, 255)" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div><div style="padding-left: 180px; color: black;">65%</div>
+                      </div>
+                      <p>Employer Contribution </p>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 8.5%; background-color: rgb(0, 119, 255)" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div><div style="padding-left: 180px; color: black;">8.5%</div>
+                      </div>
+                      <p>Interest rate </p>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 5%; background-color: rgb(0, 119, 255)" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div><div style="padding-left: 180px; color: black;">5%</div>
+                      </div>
+                      <div style="padding: 70px;">
+                      <a href="#" class="btn" style="background-color: blue; color: aliceblue;">Update </a>
+                      <div>
+                        <a href="#" class="btn" style="background-color: rgb(235, 235, 235); color: rgb(4, 0, 255);">View Help Docs > </a>
+                        </div>
+                      </div>
+                      <div>
+                      <h6>Are you considering a <b>housing advance?</b></h6>
+                      <p class="text-secondary">Limited time reduced interest</p>
+                      <div>
+                        <a href="#" class="btn" style="background-color: rgb(235, 235, 235); color: rgb(4, 0, 255);">Learn More > </a>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                      
+                    </div>
+                     </div>
+                </div>
+                
+                <div>
+
+                </div>
+
+          
+                
+
+        </div>
+      </main>
+</body>
+</html>
